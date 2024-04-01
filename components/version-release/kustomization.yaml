@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: michalsorat/ambulance-ufe
   newName: michalsorat/ambulance-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: main1pmin.20240219.1400  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 
 replacements:
  - targets:
