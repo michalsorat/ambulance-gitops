@@ -10,7 +10,7 @@ spec:
     - element: ms-ambulance-wl-app  # element, ktorý bude vložený na stránku
                                     # pri navigácii na zoznam čakajúcich
       path: ms-ambulance-wl      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
-      title: Zoznam čakajúcich MS      # názov mikro aplikácie
+      title: Zoznam čakajúcich xsorat      # názov mikro aplikácie
       details: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
