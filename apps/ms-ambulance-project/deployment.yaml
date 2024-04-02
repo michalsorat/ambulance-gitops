@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ms-ambulance-ufe-deployment      # meno deployment-u od ktorého sa odvádza meno podu
+  name: xsorat-ambulance-project-deployment      # meno deployment-u od ktorého sa odvádza meno podu
 spec:
   replicas: 2
   selector:
     matchLabels:
-        pod: ms-ambulance-ufe-label    # tento riadok je len označenie štítku
+        pod: xsorat-ambulance-project-label    # tento riadok je len označenie štítku
                                     # key-value pair pod=ambualnce ufe
                                     # určený pre výber podov s rovnakým štítkom
   template:                    # šablóna pre vytvorenie replík podov
     metadata:
       labels:
-        pod: ms-ambulance-ufe-label    # štítky podu
+        pod: xsorat-ambulance-project-label    # štítky podu
     spec:
       containers:
-      - name: ambulance-ufe-container # meno kontaineru - v pod-e ich môže byť viac
-        image: michalsorat/ambulance-ufe
+      - name: ambulance-project-container # meno kontaineru - v pod-e ich môže byť viac
+        image: michalsorat/ambulance-project
         imagePullPolicy: Always
 
         ports:

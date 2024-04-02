@@ -1,25 +1,20 @@
 apiVersion: fe.milung.eu/v1
 kind: WebComponent
 metadata:
-  name: ms-ambulance-ufe
+  name: xsorat-ambulance-project
 spec:
-  module-uri: http://ms-ambulance-ufe.wac-hospital/build/ambulance-ufe.esm.js
+  module-uri: http://xsorat-ambulance-project.wac-hospital/build/ambulance-ufe.esm.js
                      # module web komponentu pre tento mikroFE
                      # - umiestnený v namespace wac-hospital
   navigation:
-    - element: ms-ambulance-wl-app  # element, ktorý bude vložený na stránku
+    - element: ambulance-app  # element, ktorý bude vložený na stránku
                                     # pri navigácii na zoznam čakajúcich
-      attributes:
-        - name: api-base
-          value: http://localhost:5000/api
-        - name: ambulance-id
-          value: bobulova
-      path: ms-ambulance-wl      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
-      title: Zoznam čakajúcich xsorat      # názov mikro aplikácie
-      details: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
+      path: xsorat-ambulance-project      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
+      title: Objednávací systém- xsorat      # názov mikro aplikácie
+      details: Spravuje objednávky špecifických diétnych stráv založených na medicínskych požiadavkách alebo zdravotných stavoch pacientov. 
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
                                     # musí byť táto hodnota nastavená na true
-  hash-suffix: v1alpha5             # voliteľný suffix pre načítanie modulu web komponentu - jeho zmenou
+  hash-suffix: v1alpha1             # voliteľný suffix pre načítanie modulu web komponentu - jeho zmenou
                                     # sa mení názov URL pre modul a tým je možné predísť problémom
                                     # s verziami vo vyrovnávacích pamätiach

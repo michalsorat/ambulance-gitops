@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
  - ../../../apps/ms-ambulance-ufe
+ - ../../../apps/ms-ambulance-project
 
 
 components:

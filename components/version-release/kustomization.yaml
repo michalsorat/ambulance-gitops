@@ -4,6 +4,9 @@ images:
 - name: michalsorat/ambulance-ufe
   newName: michalsorat/ambulance-ufe
   newTag: main17amin.20240219.1400  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: michalsorat/ambulance-project
+  newName: michalsorat/ambulance-project
+  newTag: 1.1.0
 
 replacements:
  - targets:
