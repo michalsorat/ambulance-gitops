@@ -11,5 +11,7 @@ commonLabels:
 resources:
 - ../../../apps/ms-ambulance-ufe
 
+##add new line here
+
 components:
  - ../../../components/version-developers
