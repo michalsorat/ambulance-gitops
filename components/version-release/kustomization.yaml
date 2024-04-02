@@ -6,7 +6,7 @@ images:
   newTag: main17amin.20240219.1400  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: michalsorat/ambulance-project
   newName: michalsorat/ambulance-project
-  newTag: 1.1.0
+  newTag: main0pmin.20240219.1400
 
 replacements:
  - targets:
