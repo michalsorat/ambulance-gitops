@@ -3,7 +3,7 @@ kind: WebComponent
 metadata:
   name: xsorat-ambulance-project
 spec:
-  module-uri: http://xsorat-ambulance-project.wac-hospital/build/ambulance-ufe.esm.js
+  module-uri: http://ms-ambulance-project.wac-hospital/build/ambulance-ufe.esm.js
                      # module web komponentu pre tento mikroFE
                      # - umiestnený v namespace wac-hospital
   navigation:
