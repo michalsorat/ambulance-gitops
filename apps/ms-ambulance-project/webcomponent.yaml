@@ -10,9 +10,11 @@ spec:
     - element: ambulance-app  # element, ktorý bude vložený na stránku
                                     # pri navigácii na zoznam čakajúcich
       attributes:
-      - name: api-base
-        value: http://localhost:5002/api
-
+        - name: api-base
+          value: http://localhost:5002/api
+        - name: ambulance-id
+          value: trnava
+      
       path: xsorat-ambulance-project      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Objednávací systém- xsorat      # názov mikro aplikácie
       details: Spravuje objednávky špecifických diétnych stráv založených na medicínskych požiadavkách alebo zdravotných stavoch pacientov. 
