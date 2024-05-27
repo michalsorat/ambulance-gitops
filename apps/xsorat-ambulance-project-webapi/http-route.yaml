@@ -46,5 +46,5 @@ spec:
       backendRefs:
         - group: ""
           kind: Service
-          name: xsorat-ambulance-webapi
+          name: xsorat-ambulance-project-webapi
           port: 80

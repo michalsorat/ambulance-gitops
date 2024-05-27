@@ -10,13 +10,15 @@ commonLabels:
 
 resources:
 - ../../../apps/ms-ambulance-ufe
+- ../../../apps/ms-ambulance-project
 - ../../../apps/xsorat-ambulance-project-webapi
+- ../../../apps/mongo-express
 
 ##add new line here
 
 components:
  - ../../../components/version-developers
- - https://github.com/michalsorat/ambulance-project-webapi/deployments/kustomize/components/mongodb
+ - https://github.com/michalsorat/ambulance-project-webapi//deployments/kustomize/components/mongodb
 
 patches:
  - path: patches/ambulance-webapi.service.yaml
