@@ -18,3 +18,5 @@ resources:
  - image-update-automation.yaml
  - ambulance-project.image-repository.yaml
  - ambulance-project.image-policy.yaml
+ - ambulance-project-webapi.image-repository.yaml
+ - ambulance-project-webapi.image-policy.yaml

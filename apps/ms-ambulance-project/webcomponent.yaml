@@ -11,7 +11,7 @@ spec:
                                     # pri navigácii na zoznam čakajúcich
       attributes:
         - name: api-base
-          value: http://localhost:5002/api
+          value: /xsorat-api
         - name: ambulance-id
           value: trnava
       
